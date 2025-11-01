@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Fitgree',sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 14px;
+}
+
+.container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    padding: 12px;
+    background-color: #fff;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 12px;
+    box-shadow: 8px 8px  hsl(0, 0%, 7%) ;
+}
+header{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+img.img{
+    border-radius: 12px;
+}
+
+main.text{
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    line-height: 1.6;
+}
+
+main.text .title{
+    margin: 8px 0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+}
+
+main.text .publish{
+    font-size: 0.8em;
+}
+
+main.text .foundation{
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+main.text .foundation:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+main.text .description{
+    color: hsl(0, 0%, 42%);
+    font-size: 0.9em;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+ .footer .greg{
+    font-size: 0.8em;
+    font-weight: 900;
+    padding-left: 8px;
+ }
+
+ .footer img{
+    width: 30px;
+ }
+
+ @media(max-width:400px){
+    .container{
+        width: 100vw;
+    }
+    .box{
+        width: 90%;
+        margin: 12px;
+    }
+    img.img{
+        width: 80%;
+    }
+ }
