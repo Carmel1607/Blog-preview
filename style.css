@@ -42,7 +42,7 @@ body{
     box-shadow: 12px 12px  hsl(0, 0%, 7%) ;
     main.text .foundation{
     color: hsl(47, 88%, 63%);
-    transition: 0.2s ease-in;
+    transition: 0.2s ease-in-out;
     }
     cursor: pointer;
     transition: 0.2s ease-in;
